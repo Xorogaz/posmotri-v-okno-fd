@@ -329,9 +329,8 @@ input[type='checkbox']:checked + span::before {
 }
 
 .content__card-link:focus-visible .content__video-card{
-  border: 1px solid #fff;
-  outline: none;
-  outline-offset: 0;
+  outline: 1px solid #fff;
+  outline-offset: 0px;
 }
 
 .more-button {
@@ -349,4 +348,8 @@ input[type='checkbox']:checked + span::before {
 
 .content__card-link_current {
   background-color: #5b5959;
+}
+
+.content__list-item {
+  padding: 0 3px;
 }
