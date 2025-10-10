@@ -99,7 +99,7 @@ ol {
   width: 212px;
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 8px;
 }
 
 .search-form__label-text {
@@ -148,8 +148,8 @@ ol {
   vertical-align: middle;
   background-color: transparent;
   border: 1px solid #fff;
-  margin-bottom: 1px;
-  margin-left: 1px;
+  margin-bottom: 1.5px;
+  margin-left: 1.5px;
 }
 
 .search-form__fieldset-title + .search-form__label:focus-visible {
