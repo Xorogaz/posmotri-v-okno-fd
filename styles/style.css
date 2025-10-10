@@ -99,7 +99,11 @@ ol {
   width: 212px;
   display: flex;
   flex-direction: row;
-  gap: 4px;
+  gap: 10px;
+}
+
+.search-form__label-text {
+  margin-right: 1px;
 }
 
 .search-form__submit-button {
@@ -144,6 +148,8 @@ ol {
   vertical-align: middle;
   background-color: transparent;
   border: 1px solid #fff;
+  margin-bottom: 1px;
+  margin-left: 1px;
 }
 
 .search-form__fieldset-title + .search-form__label:focus-visible {
@@ -176,7 +182,6 @@ div .search-form__label:hover .search-form__label-text {
 
 div .search-form__label:has(input[type='checkbox']:focus-visible) {
   outline: 1px solid #fff;
-  outline-offset: 1px;
 }
 
 .button {
@@ -202,14 +207,6 @@ div .search-form__label:has(input[type='checkbox']:focus-visible) {
 .button:focus-visible {
   outline: 1px solid #fff;
   outline-offset: 2px;
-}
-
-.search-form__label-text {
-  margin-right: 9px;
-}
-
-.last {
-  margin-right: 0;
 }
 
 input[type='checkbox']:checked + span {
